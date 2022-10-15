@@ -1,0 +1,14 @@
+@mixin container {
+    height: 330px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+@mixin img-style {
+    background: url(/app/images/bg-showcase-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    width: 600px;
+}
