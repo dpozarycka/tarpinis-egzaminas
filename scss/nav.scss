@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+    background: $background;
+    font-size: 0.8em;
+    align-items: center;
+  
+  
+  button {
+    background: $blue;
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+  }
