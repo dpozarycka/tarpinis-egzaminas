@@ -6,7 +6,7 @@
 }
 
 @mixin img-style {
-    background: url(/app/images/bg-showcase-1.jpg);
+    background: url(../app/images/bg-showcase-1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 550px;
