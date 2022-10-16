@@ -1,8 +1,10 @@
 .section1 {
     display: flex;
+    max-width: 1200px;
+    margin: auto;
     justify-content: center;
     background: $background;
-    height: 500px;
+    height: 400px;
     text-align: center;
     align-items: center;
     gap: 120px;
@@ -40,7 +42,8 @@
 
     .container {
         @include container;
-        height: 550px;
+        text-align:left;
+        height: 400px;
     }
 
     .container > * {
@@ -49,10 +52,10 @@
 
     .content {
 
-        padding: 0 120px;
+        padding: 0 100px;
 
         h1 {
-            font-size: 2.2em;
+            font-size: 1.8em;
             padding-bottom: 10px;
         }
 
@@ -72,7 +75,7 @@
 
     .container {
         @include container;
-        height: 550px;
+        height: 400px;
         flex-direction: row-reverse;
     }
 
@@ -98,7 +101,8 @@
 
     .img {
         @include img-style;
-        background: url(/app/images/bg-showcase-2.jpg);
+        max-width: 844px;
+        background: url(../images/bg-showcase-2.jpg);
     }
 }
 
@@ -106,7 +110,7 @@
 
     .container {
         @include container;
-        height: 550px;
+        height: 400px;
     }
 
     .container > * {
@@ -131,12 +135,14 @@
 
     .img {
         @include img-style;
-        background: url(/app/images/bg-showcase-3.jpg);
+        background: url(../images/bg-showcase-3.jpg);
     }
 }
 
 .section5 {
     display: flex;
+    max-width: 1200px;
+    margin: auto;
     justify-content: center;
     background: $background;
     height: 670px;

@@ -1,11 +1,13 @@
 header {
     display: flex;
+    max-width: 1200px;
+    margin: auto;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 650px;
-    background: url(/app/images/bg-masthead.jpg), linear-gradient(rgba(79, 79, 79, 0.423),rgba(79, 79, 79, 0.423));
+    background: url(../images/bg-masthead.jpg), linear-gradient(rgba(79, 79, 79, 0.423),rgba(79, 79, 79, 0.423));
     background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,8 +17,8 @@ header {
       text-align: center;
       display: flex;
       color: white;
-      padding: 0 370px;
-      font-size: 3.5em;
+      padding: 0 175px;
+      font-size: 3em;
     }
   
     .field {
@@ -60,7 +62,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 350px;
-    background: url(/app/images/bg-masthead.jpg), linear-gradient(rgba(79, 79, 79, 0.423),rgba(79, 79, 79, 0.423));
+    background: url(../images/bg-masthead.jpg), linear-gradient(rgba(79, 79, 79, 0.423),rgba(79, 79, 79, 0.423));
     background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
