@@ -4,7 +4,24 @@
     height: 400px;
     display: flex;
     align-items: center;
-    text-align: justify;
+    text-align: left;
+
+    .content {
+
+        padding: 0 70px;
+
+        h1 {
+            font-size: 1.8em;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 1.1em;
+            line-height: 30px
+        }
+    }
+
 }
 
 @mixin img-style {

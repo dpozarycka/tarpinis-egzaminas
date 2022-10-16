@@ -5,33 +5,41 @@ footer {
     background: $background;
     justify-content: space-between;
     height: 200px;
-    padding: 0 250px;
     align-items: center;
+
+    .left {
+        width: 800px;
+        margin-left: 150px;
+    }
 
     .right {
         justify-content: flex-end;
         display: flex;
-        width: 500px;
+        width: 400px;
         gap: 30px;
+        margin-right: 150px;
     }
 
     ul {
         display: flex;
         list-style: none;
         flex-direction: row;
-        gap: 20px;
+        gap: 10px;
         color: $blue;
-        font-size: 1.1em;
+        font-size: 0.9em;
         line-height: 50px;
     }
 
-    li:not(:first-of-type) {
+    li:not(:first-of-type):before {
+        content: "·";
+        color: black;
         list-style-type: "·";
-        padding-left: 20px;
+        padding-left: 0;
+        padding-right: 10px;
     }
     
     h3 {
-        font-size: 0.9em;
+        font-size: 0.8em;
         font-weight: 300;
     }
 
