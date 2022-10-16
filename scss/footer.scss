@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background: red;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+
+    img {
+        width: 80px;
+        padding-bottom: 10px;
+        filter: invert(51%) sepia(67%) saturate(7497%) hue-rotate(200deg) brightness(103%) contrast(105%);
+    }
+}
